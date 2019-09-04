@@ -68,7 +68,7 @@ void fprint(int m,int n)
         }
         else if(b[m][n]=='l')
         {
-            cout<<"insert "<<y[n]<<" at position "<<n-1<<endl;
+            cout<<"insert "<<y[n-1]<<" at position "<<n-1<<endl;
             fprint(m,n-1);
         }
     }
